@@ -2,16 +2,24 @@
   "name": "mailjs-sdk",
   "version": "0.0.1",
   "description": "SDK for mailjs.lucacastelnuovo.nl",
-  "keywords": [
-    "Mailjs"
-  ],
-  "homepage": "https://mailjs.lucacastelnuovo.nl",
-  "repository": "Luca-Castelnuovo/MailJS-sdk",
-  "icon": "https://mailjs.lucacastelnuovo.nl/favicon.png",
-  "license": "MIT",
   "main": "index.js",
-  "author": "Luca Castelnuovo <luca@castelnuovo.xyz>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luca-Castelnuovo/MailJS-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Luca-Castelnuovo/MailJS-sdk/issues"
+  },
+  "keywords": [
+    "MailJS"
+  ],
+  "icon": "https://mailjs.lucacastelnuovo.nl/favicon.png",
+  "license": "MIT",
+  "author": "Luca Castelnuovo <luca@castelnuovo.xyz>",
+  "dependencies": {
+    "formdatatojson": "^1.0.0"
   }
 }
