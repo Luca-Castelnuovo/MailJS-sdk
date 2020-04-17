@@ -1,6 +1,6 @@
 {
   "name": "mailjs-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SDK for mailjs.lucacastelnuovo.nl",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "keywords": [
     "MailJS"
   ],
-  "icon": "https://mailjs.lucacastelnuovo.nl/favicon.png",
+  "homepage": "https://mailjs.lucacastelnuovo.nl",
   "license": "MIT",
   "author": "Luca Castelnuovo <luca@castelnuovo.xyz>",
   "dependencies": {

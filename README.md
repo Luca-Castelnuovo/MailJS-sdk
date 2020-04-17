@@ -2,12 +2,26 @@
 
 [![NPM](https://img.shields.io/npm/v/mailjs-sdk.svg)](https://www.npmjs.com/package/mailjs-sdk)
 
-A small module to convert an formData object to JSON
+SDK for mailjs.lucacastelnuovo.nl
 
 ## Example
 
 ```javascript
-var MailJS = require("mailjs-sdk");
+const MailJS = require("mailjs-sdk");
+
+const data = {
+  foo: "Bar",
+};
+
+const access_token = "JWTTOKEN";
+MailJS.send(access_token, data).then(
+  (response) => {
+    console.log("SUCCESS", response);
+  },
+  (error) => {
+    console.log("FAILED", error);
+  }
+);
 ```
 
 ## LICENSE [MIT](LICENSE)
