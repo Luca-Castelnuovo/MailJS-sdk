@@ -1,6 +1,6 @@
 {
   "name": "mailjs-sdk",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "SDK for mailjs.lucacastelnuovo.nl",
   "main": "index.js",
   "scripts": {

@@ -13,7 +13,7 @@ const sendPost = (access_token, data) => {
         })
             .then(res => res.json())
             .then(res => {
-                if (!res.ok) reject(res);
+                if (!res.success) reject(res);
     
                 resolve(res);
             }).catch(error => {
